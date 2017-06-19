@@ -3,7 +3,7 @@ p {
 }
 
 #my-name {
-  font-size: 500%;
+  font-size: 300%;
   text-align: center;
   font-family: "Sacramento", cursive;
 }
@@ -17,7 +17,7 @@ p {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
-  line-height:150;
+  line-height:125%;
   text-align: justify;
 }
 
