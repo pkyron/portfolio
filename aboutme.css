@@ -10,8 +10,9 @@ p {
 }
 
 #top-links {
+  color: #ff0000;
   text-align: center;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 a:link#top-links, a:visited#top-links {
