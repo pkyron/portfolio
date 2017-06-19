@@ -9,6 +9,22 @@ p {
   font-family: "Sacramento", cursive;
 }
 
+a #top-links {
+  text-align: center;
+}
+
+a:link #top-links {
+  color: #62626C;
+}
+
+a:visited #top-links {
+  color: #62626C;
+}
+
+a:hover #top-links {
+  color: #1FB6AD;
+}
+
 .section-header{
   color: "red";
   font-family: "Raleway", sans-serif;
