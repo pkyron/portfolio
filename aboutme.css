@@ -1,4 +1,5 @@
 
 #my-name {
-  size = 500%;
+  size: 500%;
+  text-align: center;
 }
