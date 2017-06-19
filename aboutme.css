@@ -1,7 +1,7 @@
 
 #my-name {
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Sacramento", cursive;
 }
 
 .section-header{
@@ -11,4 +11,10 @@
 #bio {
   background-color: #1E222E;
   color: white;
+}
+
+.long-text{
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
