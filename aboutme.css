@@ -14,11 +14,11 @@ p {
   text-decoration: none;
 }
 
-a:link#top-links, a:visited#top-links {
+a#top-links:link, a#top-links:visited {
   color: #62626C;
 }
 
-a:hover#top-links {
+a#top-links:hover {
   color: #1FB6AD;
 }
 
