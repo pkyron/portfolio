@@ -9,19 +9,16 @@ p {
   font-family: "Sacramento", cursive;
 }
 
-a #top-links {
+a#top-links {
   text-align: center;
+  text-decoration:none;
 }
 
-a:link #top-links {
+a:link#top-links, a:visited#top-links {
   color: #62626C;
 }
 
-a:visited #top-links {
-  color: #62626C;
-}
-
-a:hover #top-links {
+a:hover#top-links {
   color: #1FB6AD;
 }
 
