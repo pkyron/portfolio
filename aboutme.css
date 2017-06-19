@@ -10,11 +10,7 @@ p {
 
 .section-header{
   color: "red";
-}
-
-#bio {
-  background-color: #1E222E;
-  color: white;
+  font-family: "Raleway", sans-serif;
 }
 
 .long-text{
@@ -22,3 +18,14 @@ p {
   -moz-column-count: 2;
   column-count: 2;
 }
+
+#bio {
+  background-color: #1E222E;
+  color: white;
+}
+
+#likes {
+  background-color: white;
+  color: #AC1040;
+}
+
