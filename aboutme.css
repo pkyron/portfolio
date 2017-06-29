@@ -2,6 +2,16 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+::-moz-selection {
+    color: white;
+    background: #2A3040;
+}
+
+::selection {
+    color: white; 
+    background: #2A3040;
+}
+
 #my-name {
   font-size: 300%;
   letter-spacing: 250%;
