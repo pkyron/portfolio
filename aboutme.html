@@ -11,6 +11,8 @@
 </head>
 <body>
   
+  <!--To do: add border around pages and individual sections! Make paragraph text spaced wider.-->
+  
   <div>
   
     <h1 id="my-name">Nory Klop-Packel</h1>
@@ -88,15 +90,10 @@
   
   <script>
     function changeImageSize(percentWidth, percentHeight){
-      exec(['document.getElementById("seal").innerHTML.width=', 50, '%'].join(""));
-      exec(['document.getElementById("seal").innerHTML.height=', 50, '%'].join(""));
+      eval(['document.getElementById("seal").innerHTML.width=', percentWidth, '%'].join(""));
+      eval(['document.getElementById("seal").innerHTML.height=', percentWidth, '%'].join(""));
     }
-    
-    alert(['document.getElementById("seal").innerHTML.width=', 50, '%'].join(""));
-    alert(['document.getElementById("seal").innerHTML.height=', 50, '%'].join(""));
-    
-    changeImageSize(50, 50);
-    
+        
     //alert("Sorry about this annoying pop-up!");
   </script>
 
