@@ -90,8 +90,9 @@
   
   <script>
     function changeImageSize(percentWidth){
-      eval(['document.getElementById("seal").innerHTML.width=', percentWidth, '%;'].join(""));
-      return;
+      document.getElementByID("seal").innerHTML.width = 50%;
+      //eval(['document.getElementById("seal").innerHTML.width=', percentWidth, '%;'].join(""));
+      //return;
     }
         
     //alert("Sorry about this annoying yet necessary pop-up!");
