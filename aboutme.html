@@ -9,7 +9,7 @@
   
   <title>HTML Tutorial</title>
 </head>
-<body onload="alert('Annoying popup!')">
+<body>
   
   <div>
   
@@ -46,7 +46,7 @@
     
     <h2 class="section-header">Project: "Get to the Igloo"</h2>
     <p>Nothing here yet!</p>
-    <img src="seal-placeholder.jpg" alt="Placeholder picture of harp seal pup <3"/>
+    <img src="seal-placeholder.jpg" alt="Placeholder picture of harp seal pup <3" id="seal" onhover="changeImageSize(50, 50)"/>
     
   </div>
   
@@ -86,5 +86,15 @@
       
   <p style="text-align:center;font-size:75%">Color scheme by <a href="http://www.colourlovers.com/lover/AlcrdLover8" target="_blank">AlcrdLover8</a> on ColourLovers.</p>
   
+  <script>
+    function changeImageSize(percentWidth, percentHeight){
+      exec(['document.getElementById("seal").innerHTML = "style:width="', percentWidth, '%, height=', percentHeight, '%"'].join(" "));
+    }
+    
+    //changeImageSize(50%, 50%)
+    
+    alert("Sorry about this annoying pop-up!");
+  </script>
+
 </body>
 </html>
