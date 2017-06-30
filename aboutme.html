@@ -88,7 +88,8 @@
   
   <script>
     function changeImageSize(percentWidth, percentHeight){
-      exec(['document.getElementById("seal").innerHTML = "style:width="', percentWidth, '%, height=', percentHeight, '%"'].join(" "));
+      exec(['document.getElementById("seal").innerHTML.width=', 50, '%'].join(""));
+      exec(['document.getElementById("seal").innerHTML.height=', 50, '%'].join(""));
     }
     
     alert(['document.getElementById("seal").innerHTML.width=', 50, '%'].join(""));
